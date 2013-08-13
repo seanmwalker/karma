@@ -97,7 +97,7 @@ describe('karma', function() {
       k.setupContext(mockWindow);
       mockWindow.alert('What?');
       expect(k.log).toHaveBeenCalledWith('alert', ['What?']);
-    })
+    });
   });
 
 

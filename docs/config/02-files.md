@@ -34,6 +34,11 @@ Each pattern is either a simple string or an object with four properties:
     `<script>` tag? Use `false` if you wanna load them manually, eg.
     using [Require.js](../plus/RequireJS.html).
 
+### `insertBeforeFramework`
+* **Type.** Boolean
+* **Default.** `false`
+* **Description.** Indicates that the file(s) should be in a script tag above the framework files. This will only happen if the file is also flagged as included.
+
 ### `served`
 * **Type.** Boolean
 * **Default.** `true`
